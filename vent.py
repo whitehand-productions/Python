@@ -1,4 +1,4 @@
-# I will import time for the speed of the program and sys to make modifications to how text is written directly to terminal should run it
+# time controls text speed, sys controls direct terminal output
 import time 
 import sys 
 
@@ -19,7 +19,6 @@ def vent():
              "I just want someone to see me, hear my cries, and show me why I should love myself.\n",
              "I want to be loved the way I love\n", 
              "I just want to be ok.\n"]
-    # Sentences
     
 
     for line in lines:
@@ -34,4 +33,5 @@ if __name__ == "__main__":
             vent()
         else:
             exit()
+
 
